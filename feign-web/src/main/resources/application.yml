@@ -1,0 +1,13 @@
+server:
+  port: 83
+
+spring:
+  application:
+    name: feign-web
+
+eureka:
+  client:
+    register-with-eureka: false # 不向注册中心注册自己
+    fetch-registry: true        # 是否检索服务
+    service-url:
+      defaultZone: http://feigneureka01:9003/eureka/,http://feigneureka02:9004/eureka/  # 注册中心访问地址

@@ -1,0 +1,17 @@
+server:
+    port: 8084
+
+spring:
+    application:
+        name: feign-api
+
+eureka:
+    instance:
+        instance-id: feign-api-8084
+        prefer-ip-address: true # 访问路径可以显示 IP
+        lease-renewal-interval-in-seconds: 1
+        lease-expiration-duration-in-seconds: 2
+    client:
+        service-url:
+           # defaultZone: http://localhost:9000/eureka/  # 注册中心访问地址
+           defaultZone: http://feigneureka01:9003/eureka/, http://feigneureka02:9004/eureka/ # 注册中心访问地址
