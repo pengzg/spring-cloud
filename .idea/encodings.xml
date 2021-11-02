@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-api01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-eureka02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+  </component>
+</project>

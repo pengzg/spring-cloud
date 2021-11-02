@@ -1,15 +1,15 @@
 #端口
 server:
-    port: 9003
+    port: 9005
 #eureka
 eureka:
     server:
     # 测试时关闭自我保护机制，保证不可用服务及时踢出
         enable-self-preservation: false
     instance:
-        hostname: feigneureka01   # eureka 实例名称
+        hostname: feigneureka03   # eureka 实例名称
     client:
         register-with-eureka: false # 不向注册中心注册自己
         fetch-registry: false       # 是否检索服务
         service-url:
-            defaultZone: http://feigneureka02:9004/eureka/,http://feigneureka03:9005/eureka/  # 注册中心访问地址
+            defaultZone: http://feigneureka01:9003/eureka/,http://feigneureka02:9004/eureka/  # 注册中心访问地址
