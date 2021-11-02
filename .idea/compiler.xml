@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
-        <module name="feign-api" />
-        <module name="feign-api01" />
         <module name="feign-eureka01" />
         <module name="feign-eureka02" />
         <module name="feign-web" />
+        <module name="feign-eureka03" />
+        <module name="feign-api01" />
+        <module name="feign-api" />
       </profile>
     </annotationProcessing>
   </component>
