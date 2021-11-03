@@ -1,4 +1,4 @@
-package com.demo.feigneureka01;
+package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
