@@ -28,19 +28,24 @@ public class UserController {
 	private UserFeignService userFeignService;
 	
 	@RequestMapping("/get")
-	public String get(String id) throws Exception {
-		
-		/*List<ServiceInstance> list = this.discoveryClient.getInstances("FEIGN-API");
+	public void get(String id) throws Exception {
+		//String uri = "";
+
+		List<ServiceInstance> list = this.discoveryClient.getInstances("FEIGN-API");
         String uri = "";
         for (ServiceInstance instance : list) {
             if (instance.getUri() != null && !"".equals(instance.getUri())) {
                 uri = instance.getUri().toString();
-                break;
+				System.out.println(uri);
+                //break;
             }
-        }*/
-        
+        }
+		System.out.println(uri+"/provide/user/get?id=2" + "===>");
      //  return uri+"/provide/user/getInfo";
-      // return restTemplate.getForObject(uri+"/provide/user/get/"+id, String.class)+"客户83";
-		return (String) this.userFeignService.get(id);
+
+		String  baStr = restTemplate.getForObject("http://192.168.1.9:8084/provide/user/get?id=2", String.class);
+		System.out.println(baStr+"===>");
+		//return (String) this.userFeignService.get(id);
+		//return "sss";
 	}
 }
