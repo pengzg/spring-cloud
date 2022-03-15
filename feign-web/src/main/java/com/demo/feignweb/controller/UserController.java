@@ -2,6 +2,9 @@ package com.demo.feignweb.controller;
 
 import java.util.List;
 
+//import com.demo.commonapi.service.UserFeignService;
+//import com.demo.commonapi.service.UserFeignService;
+//import com.demo.commonapi.service.UserFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -10,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.demo.commonapi.model.User;
-import com.demo.commonapi.service.UserFeignService;
+//import com.demo.commonapi.model.User;
+//import com.demo.commonapi.service.UserFeignService;
 
 
 @RestController
@@ -24,8 +27,8 @@ public class UserController {
 	@Autowired
 	private DiscoveryClient discoveryClient;
 	
-	@Autowired
-	private UserFeignService userFeignService;
+//	@Autowired
+//	private UserFeignService userFeignService;
 	
 	@RequestMapping("/get")
 	public void get(String id) throws Exception {
