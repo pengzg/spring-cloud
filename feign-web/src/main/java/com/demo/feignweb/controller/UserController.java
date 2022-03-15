@@ -43,7 +43,7 @@ public class UserController {
 		System.out.println(uri+"/provide/user/get?id=2" + "===>");
      //  return uri+"/provide/user/getInfo";
 
-		String  baStr = restTemplate.getForObject("http://192.168.1.9:8084/provide/user/get?id=2", String.class);
+		String  baStr = restTemplate.getForObject(uri+"/provide/user/get?id=2", String.class );
 		System.out.println(baStr+"===>");
 		//return (String) this.userFeignService.get(id);
 		//return "sss";

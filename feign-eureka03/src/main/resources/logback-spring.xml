@@ -5,7 +5,7 @@
     <!-- test文件路径 -->
     <property name="TEST_FILE_PATH" value="d:/test.log" />
     <!-- pro文件路径 -->
-    <property name="PRO_FILE_PATH" value="/opt/test/log" />
+    <property name="PRO_FILE_PATH" value="/data/log/springcloud/feigneureka03/" />
 
     <!-- 开发环境 -->
     <springProfile name="dev">
