@@ -13,4 +13,4 @@ eureka:
         register-with-eureka: false # 不向注册中心注册自己
         fetch-registry: false       # 是否检索服务
         service-url:
-            defaultZone: http://feigneureka01:9003/eureka/,http://feigneureka02:9004/eureka/  # 注册中心访问地址
+            defaultZone: http://localhost:9003/eureka/,http://localhost:9004/eureka/  # 注册中心访问地址
