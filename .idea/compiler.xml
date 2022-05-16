@@ -12,8 +12,12 @@
         <module name="feign-web" />
         <module name="feign-eureka03" />
         <module name="feign-api01" />
+        <module name="zuul" />
         <module name="feign-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wrapper" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

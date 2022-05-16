@@ -51,5 +51,6 @@
    <module>feign-eureka01</module>
    <module>feign-eureka02</module>
    <module>feign-eureka03</module>
+	  <module>zuul</module>
   </modules>
 </project>
