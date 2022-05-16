@@ -31,7 +31,7 @@ public class UserController {
 //	private UserFeignService userFeignService;
 	
 	@RequestMapping("/get")
-	public void get(String id) throws Exception {
+	public String get(String id) throws Exception {
 		//String uri = "";
 
 		List<ServiceInstance> list = this.discoveryClient.getInstances("FEIGN-API");
@@ -50,5 +50,6 @@ public class UserController {
 		System.out.println(baStr+"===>");
 		//return (String) this.userFeignService.get(id);
 		//return "sss";
+		return baStr;
 	}
 }

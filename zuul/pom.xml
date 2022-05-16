@@ -59,11 +59,11 @@
 		    <scope>true</scope>
 		</dependency>
 		<!-- eureka 客户端 -->
-<!--		<dependency>-->
-<!--		    <groupId>org.springframework.cloud</groupId>-->
-<!--		    <artifactId>spring-cloud-starter-eureka</artifactId>-->
-<!--		</dependency>-->
-		<!-- Eureka client  -->
+		<dependency>
+		    <groupId>org.springframework.cloud</groupId>
+		    <artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+<!--		 Eureka client  -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
