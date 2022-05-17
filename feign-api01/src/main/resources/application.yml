@@ -1,5 +1,5 @@
 server:
-    port: 8084
+    port: 8086
 
 spring:
     application:
@@ -7,7 +7,7 @@ spring:
 
 eureka:
     instance:
-        instance-id: feign-api-8084
+        instance-id: feign-api-8086
         prefer-ip-address: true # 访问路径可以显示 IP
         lease-renewal-interval-in-seconds: 1
         lease-expiration-duration-in-seconds: 2

@@ -1,4 +1,4 @@
-package com.demo.zuul;
+package com.demo.feignapi;
 
 
 public class FeignApiApplicationTests {

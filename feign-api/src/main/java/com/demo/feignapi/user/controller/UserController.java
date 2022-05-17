@@ -1,4 +1,4 @@
-package com.demo.zuul.user.controller;
+package com.demo.feignapi.user.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
