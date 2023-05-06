@@ -12,6 +12,7 @@
         <module name="feign-web" />
         <module name="feign-eureka03" />
         <module name="feign-api01" />
+        <module name="feign-web02" />
         <module name="feign-api" />
       </profile>
     </annotationProcessing>
