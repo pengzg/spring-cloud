@@ -51,6 +51,6 @@
    <module>feign-api01</module>
    <module>feign-eureka01</module>
    <module>feign-eureka02</module>
-	  <module>feign-eureka03</module>
+   <module>feign-eureka03</module>
   </modules>
 </project>
