@@ -44,10 +44,17 @@ public class UserController {
             }
         }
 		System.out.println(uri+"/provide/user/get?id=2" + "===>");
-     //  return uri+"/provide/user/getInfo";
+		String  baStr = "";
+		//  return uri+"/provide/user/getInfo";
+		try{
+			baStr = restTemplate.getForObject(uri+"/provide/user/get?id=2", String.class );
+			System.out.println(baStr+"===>");
+		}
+		catch (Exception e) {
+			System.out.println("调用接口Distance错误:"+ e.getMessage());
+			return "执行失败";
+		}
 
-		String  baStr = restTemplate.getForObject(uri+"/provide/user/get?id=2", String.class );
-		System.out.println(baStr+"===>");
 		//return (String) this.userFeignService.get(id);
 		//return "sss";
 		return baStr;
