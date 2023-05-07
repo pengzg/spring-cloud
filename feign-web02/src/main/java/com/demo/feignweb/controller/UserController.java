@@ -1,4 +1,4 @@
-package main.java.com.demo.feignweb.controller;
+package com.demo.feignweb.controller;
 
 import java.util.List;
 
@@ -30,7 +30,7 @@ public class UserController {
 	private UserFeignService userFeignService;
 	
 	@RequestMapping("/get")
-	public void get(String id) throws Exception {
+	public Object get(String id) throws Exception {
 		//String uri = "";
 
 		List<ServiceInstance> list = this.discoveryClient.getInstances("FEIGN-API");
@@ -47,7 +47,7 @@ public class UserController {
 
 //		String  baStr = restTemplate.getForObject(uri+"/provide/user/get?id=2", String.class );
 //		System.out.println(baStr+"===>");
-		return (String) this.userFeignService.get(id);
-		//return "sss";
+		System.out.println(this.userFeignService.get(id).toString());
+		return this.userFeignService.get(id);
 	}
 }

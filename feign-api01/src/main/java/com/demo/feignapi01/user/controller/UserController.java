@@ -12,8 +12,9 @@ public class UserController {
 
 	
 	@RequestMapping("/get")
-	public String get(String id) {
-		return "这是8084服务器==》"+id;
+	public String get(String id) throws Exception {
+		int i = 1/0;
+		return "这是8086服务器==》"+id;
         //return this.userService.getUser(id);
     } 
 }
